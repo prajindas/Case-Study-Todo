@@ -1,0 +1,149 @@
+body{
+    background-color: #787a7c;
+}
+#bg-body{
+    background-color: #434244;
+}
+.navbar{
+    background: #434244;
+}
+.nav-item a{
+    color: #fdb912;
+}
+.lists{
+    background-color:#97999b;
+    padding:15px 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    margin-left: 0;
+
+   
+}
+.bg-list{
+    background-color: #787a7c;
+}
+.bg-head{
+    background-color: #434244;
+    color: #ffff;
+}
+#wishes{
+    color: #fdb912 ;
+    text-decoration: solid;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#date{
+    color: #434244;
+}
+
+#h,#m,#s{
+    background-color: #434244;
+    color: #fdb912;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.list li{
+    color:#434244 ;
+}
+
+.custom-control-label:before{
+    background-color:#97999b;
+    border: 2px solid #434244;
+  }
+  .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:#fdb912
+  }
+  #weather{
+    font-size: 60px;
+    color: #fdb912;
+   }
+
+@media (max-width: 576px) { 
+    #wishes{
+        font-size: 25px;
+        color: #fff;
+    }
+    #date{
+        font-size: 15px;
+    }
+    #time{
+        font-size: 18px;
+    }
+    .bg-head h3{
+        font-size: large;
+    }
+    #h,#m,#s{
+        background-color: #434244;
+        color: #fdb912;
+        width: 100px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: large;
+    }
+    #weather{
+        font-size: 50px;
+       }
+}
+@media (max-width: 720px) { 
+    #wishes{
+        font-size: 25px;
+        color: #fff;
+    }
+    #date{
+        font-size: 15px;
+    }
+    #time{
+        font-size: 20px;
+    }
+    .bg-head h3{
+        font-size: large;
+    }
+    #h,#m,#s{
+        background-color: #434244;
+        color: #fdb912;
+        width: 100px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: large;
+    }
+    #weather{
+        font-size: 50px;
+       }
+}
+
+/* #434244
+#515153
+#787a7c
+#97999b
+#fdb912 */
+
+.bg-input{
+    background-color: #97999b;
+    border-radius: 20px;
+    padding: 0 0;
+}
+.form-control{
+    background-color: #97999b;
+    border: #97999b;
+}
+.form-control:focus{
+    background-color: #97999b;
+    border: #97999b;
+}
+
+
+.bg-icon{
+    background-color: #97999b;
+    border-color: #97999b;
+    border-right: 1px solid black;
+}
+
+ .form-control::placeholder { 
+    color:#d4d0d0
+ }
+
+ .btn-bg{
+     background-color: #fdb912;
+     border-radius: 20px;
+ }

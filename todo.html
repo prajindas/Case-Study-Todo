@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css" integrity="sha512-QfDd74mlg8afgSqm3Vq2Q65e9b3xMhJB4GZ9OcHDVy1hZ6pqBJPWWnMsKDXM7NINoKqJANNGBuVRIpIJ5dogfA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-dark ">
+        <img src="todo/logo.png" width="55px" height="55px" class=" img-fluid d-inline-block align-top navbar-brand" href="#">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Todo List <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  onclick="redirect()">Log out</a>
+            </li>
+            <li class="nav-item">
+          </ul>
+        </div>
+      </nav>
+    <div class="container img-fluid">
+        <div class="row">
+          <div class="col-6 col-sm-6 align-middle align-self-center " >
+            <h3 id="wishes"></h3>
+          </div>
+          <div class="col-sm-6 col-6 align-middle align-self-center pb-4">
+            <div class="row">
+              <div class="col-sm-3 col-12 pt-3 text-center" ><i id="weather"></i></div>
+              <div class="col-sm-9 col-12 text-center">
+                <div class="col-12 pt-3">
+                  <h3 id="time"><i id="h"></i> : <i id="m"></i> : <i id="s"></i></h3>
+                </div>
+                <div class="col-12">
+                  <h5 id="date"></h5>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-12 bg-head lign-middle align-self-center ">
+            <h3>All Tasks</h3>
+          </div>
+        </div>
+        <div class="container">
+            <div class="row pt-4">
+              
+                <div class="col-12 mx-auto bg-list">
+                    <ul class="list-group list-group-flush list bg-list">
+                        <!-- <li class="list-group-item bg-list" >
+                          <div class="lists">
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="check1" onclick="checkCheckbox()">
+                              <label class="custom-control-label" for="check1">Check me</label>
+                            </div>
+                          </div>
+                        </li> -->
+                        
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- script -->
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+</body>
+</html>
